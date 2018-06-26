@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A03D8EFE20365276009E75C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03D8EFD20365276009E75C6 /* AppDelegate.swift */; };
+		A03D8F0520365276009E75C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A03D8F0420365276009E75C6 /* Assets.xcassets */; };
+		A03D8F0820365276009E75C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A03D8F0620365276009E75C6 /* LaunchScreen.storyboard */; };
+		A03D8F1320365276009E75C6 /* Cidade_JardimTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03D8F1220365276009E75C6 /* Cidade_JardimTests.swift */; };
+		A0E4586A2050C2290003BFBA /* BusTableViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E458692050C2290003BFBA /* BusTableViewDelegate.swift */; };
+		A0E4586C2050C23F0003BFBA /* BusType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E4586B2050C23F0003BFBA /* BusType.swift */; };
+		A0E4586E2050C24A0003BFBA /* BusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E4586D2050C2490003BFBA /* BusViewController.swift */; };
+		A0E458702050C2500003BFBA /* BusViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E4586F2050C2500003BFBA /* BusViewModel.swift */; };
+		A0E458722050C2610003BFBA /* Bus.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E458712050C2610003BFBA /* Bus.swift */; };
+		A0E458742050C2680003BFBA /* BusPeriod.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E458732050C2680003BFBA /* BusPeriod.swift */; };
+		A0E458762050C26D0003BFBA /* JardineiraType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E458752050C26D0003BFBA /* JardineiraType.swift */; };
+		A0E458782050C2920003BFBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0E458772050C2920003BFBA /* Main.storyboard */; };
+		A0EE43A62040FD6100DDD769 /* BusProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EE43A52040FD6100DDD769 /* BusProvider.swift */; };
+		A0EE43A82040FD7E00DDD769 /* AppData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EE43A72040FD7E00DDD769 /* AppData.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A03D8F0F20365276009E75C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A03D8EF220365276009E75C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A03D8EF920365276009E75C6;
+			remoteInfo = "Cidade Jardim";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A03D8EFA20365276009E75C6 /* Cidade Jardim.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cidade Jardim.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A03D8EFD20365276009E75C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A03D8F0420365276009E75C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A03D8F0720365276009E75C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A03D8F0920365276009E75C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A03D8F0E20365276009E75C6 /* Cidade JardimTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cidade JardimTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A03D8F1220365276009E75C6 /* Cidade_JardimTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cidade_JardimTests.swift; sourceTree = "<group>"; };
+		A03D8F1420365276009E75C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0E458692050C2290003BFBA /* BusTableViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusTableViewDelegate.swift; sourceTree = "<group>"; };
+		A0E4586B2050C23F0003BFBA /* BusType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusType.swift; sourceTree = "<group>"; };
+		A0E4586D2050C2490003BFBA /* BusViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusViewController.swift; sourceTree = "<group>"; };
+		A0E4586F2050C2500003BFBA /* BusViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusViewModel.swift; sourceTree = "<group>"; };
+		A0E458712050C2610003BFBA /* Bus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bus.swift; sourceTree = "<group>"; };
+		A0E458732050C2680003BFBA /* BusPeriod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusPeriod.swift; sourceTree = "<group>"; };
+		A0E458752050C26D0003BFBA /* JardineiraType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JardineiraType.swift; sourceTree = "<group>"; };
+		A0E458772050C2920003BFBA /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		A0EE43A52040FD6100DDD769 /* BusProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusProvider.swift; sourceTree = "<group>"; };
+		A0EE43A72040FD7E00DDD769 /* AppData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppData.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A03D8EF720365276009E75C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A03D8F0B20365276009E75C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A03D8EF120365276009E75C6 = {
+			isa = PBXGroup;
+			children = (
+				A03D8EFC20365276009E75C6 /* Cidade Jardim */,
+				A03D8F1120365276009E75C6 /* Cidade JardimTests */,
+				A03D8EFB20365276009E75C6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A03D8EFB20365276009E75C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A03D8EFA20365276009E75C6 /* Cidade Jardim.app */,
+				A03D8F0E20365276009E75C6 /* Cidade JardimTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A03D8EFC20365276009E75C6 /* Cidade Jardim */ = {
+			isa = PBXGroup;
+			children = (
+				A03D8EFD20365276009E75C6 /* AppDelegate.swift */,
+				A0E458772050C2920003BFBA /* Main.storyboard */,
+				A0E458792050C2B50003BFBA /* BusViewController */,
+				A0E4587A2050C2CB0003BFBA /* Model */,
+				A0EE439F2040F58F00DDD769 /* Configuration */,
+				A0EE43A42040FD4800DDD769 /* Providers */,
+			);
+			path = "Cidade Jardim";
+			sourceTree = "<group>";
+		};
+		A03D8F1120365276009E75C6 /* Cidade JardimTests */ = {
+			isa = PBXGroup;
+			children = (
+				A03D8F1220365276009E75C6 /* Cidade_JardimTests.swift */,
+				A03D8F1420365276009E75C6 /* Info.plist */,
+			);
+			path = "Cidade JardimTests";
+			sourceTree = "<group>";
+		};
+		A0E458792050C2B50003BFBA /* BusViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A0E4586D2050C2490003BFBA /* BusViewController.swift */,
+				A0E4586F2050C2500003BFBA /* BusViewModel.swift */,
+				A0E458692050C2290003BFBA /* BusTableViewDelegate.swift */,
+			);
+			name = BusViewController;
+			path = BusViewController/BusViewController;
+			sourceTree = "<group>";
+		};
+		A0E4587A2050C2CB0003BFBA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A0E458712050C2610003BFBA /* Bus.swift */,
+				A0E4586B2050C23F0003BFBA /* BusType.swift */,
+				A0E458752050C26D0003BFBA /* JardineiraType.swift */,
+				A0E458732050C2680003BFBA /* BusPeriod.swift */,
+			);
+			name = Model;
+			path = Model/Model;
+			sourceTree = "<group>";
+		};
+		A0EE439F2040F58F00DDD769 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				A03D8F0420365276009E75C6 /* Assets.xcassets */,
+				A03D8F0620365276009E75C6 /* LaunchScreen.storyboard */,
+				A03D8F0920365276009E75C6 /* Info.plist */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		A0EE43A42040FD4800DDD769 /* Providers */ = {
+			isa = PBXGroup;
+			children = (
+				A0EE43A52040FD6100DDD769 /* BusProvider.swift */,
+				A0EE43A72040FD7E00DDD769 /* AppData.swift */,
+			);
+			path = Providers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A03D8EF920365276009E75C6 /* Cidade Jardim */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A03D8F1720365276009E75C6 /* Build configuration list for PBXNativeTarget "Cidade Jardim" */;
+			buildPhases = (
+				A03D8EF620365276009E75C6 /* Sources */,
+				A03D8EF720365276009E75C6 /* Frameworks */,
+				A03D8EF820365276009E75C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cidade Jardim";
+			productName = "Cidade Jardim";
+			productReference = A03D8EFA20365276009E75C6 /* Cidade Jardim.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A03D8F0D20365276009E75C6 /* Cidade JardimTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A03D8F1A20365276009E75C6 /* Build configuration list for PBXNativeTarget "Cidade JardimTests" */;
+			buildPhases = (
+				A03D8F0A20365276009E75C6 /* Sources */,
+				A03D8F0B20365276009E75C6 /* Frameworks */,
+				A03D8F0C20365276009E75C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A03D8F1020365276009E75C6 /* PBXTargetDependency */,
+			);
+			name = "Cidade JardimTests";
+			productName = "Cidade JardimTests";
+			productReference = A03D8F0E20365276009E75C6 /* Cidade JardimTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A03D8EF220365276009E75C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Fullab;
+				TargetAttributes = {
+					A03D8EF920365276009E75C6 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					A03D8F0D20365276009E75C6 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A03D8EF920365276009E75C6;
+					};
+				};
+			};
+			buildConfigurationList = A03D8EF520365276009E75C6 /* Build configuration list for PBXProject "Cidade Jardim" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A03D8EF120365276009E75C6;
+			productRefGroup = A03D8EFB20365276009E75C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A03D8EF920365276009E75C6 /* Cidade Jardim */,
+				A03D8F0D20365276009E75C6 /* Cidade JardimTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A03D8EF820365276009E75C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A03D8F0820365276009E75C6 /* LaunchScreen.storyboard in Resources */,
+				A03D8F0520365276009E75C6 /* Assets.xcassets in Resources */,
+				A0E458782050C2920003BFBA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A03D8F0C20365276009E75C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A03D8EF620365276009E75C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0E4586A2050C2290003BFBA /* BusTableViewDelegate.swift in Sources */,
+				A0E458702050C2500003BFBA /* BusViewModel.swift in Sources */,
+				A0E4586C2050C23F0003BFBA /* BusType.swift in Sources */,
+				A03D8EFE20365276009E75C6 /* AppDelegate.swift in Sources */,
+				A0E458762050C26D0003BFBA /* JardineiraType.swift in Sources */,
+				A0E458742050C2680003BFBA /* BusPeriod.swift in Sources */,
+				A0EE43A62040FD6100DDD769 /* BusProvider.swift in Sources */,
+				A0E458722050C2610003BFBA /* Bus.swift in Sources */,
+				A0E4586E2050C24A0003BFBA /* BusViewController.swift in Sources */,
+				A0EE43A82040FD7E00DDD769 /* AppData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A03D8F0A20365276009E75C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A03D8F1320365276009E75C6 /* Cidade_JardimTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A03D8F1020365276009E75C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A03D8EF920365276009E75C6 /* Cidade Jardim */;
+			targetProxy = A03D8F0F20365276009E75C6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A03D8F0620365276009E75C6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A03D8F0720365276009E75C6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A03D8F1520365276009E75C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A03D8F1620365276009E75C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A03D8F1820365276009E75C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M3J2L4Y6S5;
+				INFOPLIST_FILE = "$(SRCROOT)/Cidade Jardim/Configuration/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "app.Cidade-Jardim";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A03D8F1920365276009E75C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M3J2L4Y6S5;
+				INFOPLIST_FILE = "$(SRCROOT)/Cidade Jardim/Configuration/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "app.Cidade-Jardim";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A03D8F1B20365276009E75C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3X5S4SB388;
+				INFOPLIST_FILE = "Cidade JardimTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "app.Cidade-JardimTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cidade Jardim.app/Cidade Jardim";
+			};
+			name = Debug;
+		};
+		A03D8F1C20365276009E75C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3X5S4SB388;
+				INFOPLIST_FILE = "Cidade JardimTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "app.Cidade-JardimTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cidade Jardim.app/Cidade Jardim";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A03D8EF520365276009E75C6 /* Build configuration list for PBXProject "Cidade Jardim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A03D8F1520365276009E75C6 /* Debug */,
+				A03D8F1620365276009E75C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A03D8F1720365276009E75C6 /* Build configuration list for PBXNativeTarget "Cidade Jardim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A03D8F1820365276009E75C6 /* Debug */,
+				A03D8F1920365276009E75C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A03D8F1A20365276009E75C6 /* Build configuration list for PBXNativeTarget "Cidade JardimTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A03D8F1B20365276009E75C6 /* Debug */,
+				A03D8F1C20365276009E75C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A03D8EF220365276009E75C6 /* Project object */;
+}
