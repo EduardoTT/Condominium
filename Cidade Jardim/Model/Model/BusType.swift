@@ -12,5 +12,7 @@ enum BusType: String, Codable {
     case Alvorada
     case RioDesign
     case Metro
-//    case Jardineira(JardineiraType)
+    case Metro_Semi_Expresso
+    case Metro_Expresso
+    case Jardineira
 }

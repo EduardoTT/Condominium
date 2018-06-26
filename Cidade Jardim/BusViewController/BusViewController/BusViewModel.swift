@@ -47,4 +47,5 @@ class BusViewModel: NSObject {
         }
         return busGrouped
     }
+    
 }
